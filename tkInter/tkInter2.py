@@ -13,7 +13,7 @@ def cnt():
     counter += 1
     root1.after(1000, cnt)
     w2.config(text=str(counter))
-    print(counter)
+    #print(counter)
 
 
 img1 = PhotoImage(file="dw.gif")
